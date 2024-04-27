@@ -1,0 +1,1 @@
+--environment happy-dom //for testing vrtual DOM

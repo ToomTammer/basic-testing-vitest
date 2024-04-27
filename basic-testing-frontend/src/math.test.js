@@ -63,6 +63,6 @@ it('should throw an error if provided with multiple arguments instead of an arra
     const resultFn = () =>{
         add(num1, num2);
     };
-
+    
     expect(resultFn).toThrow(/is not iterable/); // check make sure error is "is not iterable" 
 });

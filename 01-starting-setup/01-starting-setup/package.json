@@ -6,14 +6,12 @@
   "scripts": {
     "test": "vitest --run --reporter verbose",
     "test:watch": "vitest",
-    "start": "http-server -c-1",
-    "coverage": "vitest run --coverage"
+    "start": "http-server -c-1"
   },
   "keywords": [],
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    "c8": "^9.1.0",
     "http-server": "^14.1.0",
     "install": "^0.13.0",
     "npm": "^8.6.0",
